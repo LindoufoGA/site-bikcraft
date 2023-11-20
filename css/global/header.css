@@ -1,0 +1,61 @@
+@import "/css/utilidades/cores.css";
+
+.header-bg {
+  background-color: var(--cor-12);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  list-style: none;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: var(--cor-0);
+  padding: 16px 0;
+  display: inline-block;
+  position: relative;
+}
+
+.header-menu a:after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  display: block;
+  background-color: var(--cor-0);
+  margin-top: 2px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .header-menu {
+    gap: 20px;
+  }
+  .header-menu a {
+    background-color: var(--cor-11);
+    font-size: 1rem;
+    padding: 14px 12px;
+    border-radius: 8px;
+  }
+  .header-menu a:after {
+    display: none;
+  }
+  .header-menu a:hover {
+    background-color: var(--cor-10);
+  }
+}

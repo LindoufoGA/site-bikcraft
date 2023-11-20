@@ -1,0 +1,12 @@
+/* global */
+@import "global/reset.css";
+@import "global/header.css";
+
+/* home */
+@import "home/introducao.css";
+@import "home/bicicletas-lista.css";
+@import "/css/home/tecnologia.css";
+
+/* utilidades */
+@import "utilidades/tipografia.css";
+@import "utilidades/componentes.css";

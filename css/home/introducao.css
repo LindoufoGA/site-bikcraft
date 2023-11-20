@@ -1,0 +1,61 @@
+@import "utilidades/cores.css";
+@import "utilidades/tipografia.css";
+
+.introducao-bg {
+  background-color: var(--cor-12);
+  box-shadow: inset 0 -120px var(--cor-0);
+}
+
+body {
+  height: 2000px;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+}
+
+.introducao img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 750px) {
+  .introducao-bg {
+    background-color: var(--cor-11);
+    padding-top: 40px;
+    box-shadow: inset -60px var(--cor-0);
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .introducao-conteudo {
+    padding-bottom: 20px;
+  }
+  .introducao h1 {
+    font-size: 1.75rem;
+  }
+  .introducao p {
+    font-size: 1.5rem;
+  }
+  .introducao img {
+    height: 300px;
+    width: 100%;
+  }
+}

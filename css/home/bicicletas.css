@@ -1,0 +1,105 @@
+@import "utilidades/cores.css";
+
+.bicicleta-bg {
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 30%);
+}
+
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicleta-img {
+  display: grid;
+}
+
+.bicicleta-img img {
+  grid-area: 1/1;
+}
+
+.bicicleta-img span {
+  background-color: var(--cor-12);
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  grid-area: 1/1;
+  place-self: start end;
+  border-radius: 4px 0 0 4px;
+  margin-top: 20px;
+}
+
+.bicicleta-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.bicicleta h2,
+.bicicleta p {
+  grid-column: 1/-1;
+}
+
+.bicicleta h2{
+  margin-bottom: 20px;
+}
+
+
+.bicicleta h2:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: 8px;
+}
+
+.bicicleta p {
+  margin-bottom: 32px;
+}
+
+.bicicleta a {
+  place-self: end;
+}
+
+.bicicleta li {
+  display: flex;
+  align-items: center;
+}
+
+.bicicleta ul {
+display: grid;
+gap: 20px;
+}
+
+.bicicleta-conteudo img {
+  margin-right: 8px;
+  gap: 8px;
+}
+
+@media (max-width: 750px) {
+  .bicicleta{
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding-top: 4px;
+  padding-bottom: 40px;
+  }
+  .bicicleta-bg {
+    background: var(--cor-11);
+  }
+}
+
+@media (max-width:600px) {
+  .bicicleta-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .bicicleta ul {
+    margin-bottom: 32px;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+  }
+  .bicicleta a {
+    place-self: start;
+  }
+}

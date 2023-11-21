@@ -43,6 +43,9 @@
   .parceiros ul {
     grid-template-columns: repeat(2, 1fr);
   }
+  .parceiros-lista li {
+    padding: 20px;
+  }
   .parceiros-lista li:nth-child(3),
   .parceiros-lista li:nth-child(7) {
     border-left: none;

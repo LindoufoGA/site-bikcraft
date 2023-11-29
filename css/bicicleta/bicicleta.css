@@ -1,35 +1,35 @@
-@import "../css/utilidades/cores.css";
+@import"./css/utilidades/cores.css";
 
-.nimbus-imagens {
+.catalogo-imagens {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.nimbus-imagens img {
+.catalogo-imagens img {
   flex: 1;
   min-width: 200px;
 }
 
-.nimbus-imagens img:first-child {
+.catalogo-imagens img:first-child {
   min-width: 100%;
 }
 
-.nimbus {
+.catalogo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.nimbus-conteudo>p {
+.catalogo-conteudo > p {
   margin-bottom: 32px;
 }
 
-#nimbus .titulo p {
+#catalogo .titulo p {
   text-transform: uppercase;
 }
 
-.nimbus-comprar {
+.catalogo-comprar {
   display: grid;
   grid-template-columns: max-content auto;
   gap: 8px 12px;
@@ -38,16 +38,16 @@
   justify-items: start;
 }
 
-.nimbus-comprar span {
+.catalogo-comprar span {
   display: flex;
   align-items: center;
 }
 
-.nimbus-comprar a {
+.catalogo-comprar a {
   grid-row: span 2;
 }
 
-.nimbus-informacoes {
+.catalogo-informacoes {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
@@ -57,54 +57,53 @@
   border-radius: 4px;
 }
 
-.nimbus-informacoes img {
+.catalogo-informacoes img {
   width: 24px;
   margin-bottom: 8px;
 }
 
-.nimbus-informacoes h3 {
+.catalogo-informacoes h3 {
   margin-bottom: 8px;
 }
 
-.nimbus-informacoes h2{
+.catalogo-informacoes h2 {
   margin-bottom: 12px;
-  letter-spacing: .015rem;
+  letter-spacing: 0.015rem;
 }
 
-.nimbus-ficha {
+.catalogo-ficha {
   padding: 32px;
   background-color: var(--cor-12);
   border-radius: 4px;
 }
 
-.nimbus-ficha li {
+.catalogo-ficha li {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid var(--cor-11);
   padding: 4px 0;
 }
 
-.nimbus-ficha span {
+.catalogo-ficha span {
   color: var(--cor-6);
 }
 
-@media (max-width: 800px){
-  .nimbus {
+@media (max-width: 800px) {
+  .catalogo {
     grid-template-columns: 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
-}
-.nimbus-imagens {
-  grid-row: 2;
-}
+  }
+  .catalogo-imagens {
+    grid-row: 2;
+  }
 }
 
-
-@media (max-width: 500px){
-  .nimbus-comprar {
+@media (max-width: 500px) {
+  .catalogo-comprar {
     grid-template-columns: 1fr;
-}
-.nimbus-informacoes {
-  grid-template-columns: 1fr;
-}
+  }
+  .catalogo-informacoes {
+    grid-template-columns: 1fr;
+  }
 }

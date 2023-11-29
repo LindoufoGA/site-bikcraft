@@ -19,12 +19,12 @@
   overflow-x: auto;
 }
 
-#nimbus .bicicletas-lista ul {
+#catalogo .bicicletas-lista ul {
   padding: 0px 0px 20px 0px;
 }
 
-.bicicletas-lista li{
-  flex: 1;  
+.bicicletas-lista li {
+  flex: 1;
   min-width: 280px;
 }
 
@@ -48,7 +48,7 @@
   width: 12px;
   display: inline-block;
   margin-right: 8px;
-  transition: width .3s;
+  transition: width 0.3s;
 }
 
 .bicicletas-lista li:hover h3:before {

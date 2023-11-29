@@ -1,4 +1,4 @@
-@import "utilidades/cores.css";
+@import "/css/utilidades/cores.css";
 
 .bicicleta-bg {
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 30%);
@@ -41,10 +41,9 @@
   grid-column: 1/-1;
 }
 
-.bicicleta h2{
+.bicicleta h2 {
   margin-bottom: 20px;
 }
-
 
 .bicicleta h2:before {
   content: "";
@@ -69,8 +68,8 @@
 }
 
 .bicicleta ul {
-display: grid;
-gap: 20px;
+  display: grid;
+  gap: 20px;
 }
 
 .bicicleta-conteudo img {
@@ -79,18 +78,18 @@ gap: 20px;
 }
 
 @media (max-width: 750px) {
-  .bicicleta{
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding-top: 4px;
-  padding-bottom: 40px;
+  .bicicleta {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 4px;
+    padding-bottom: 40px;
   }
   .bicicleta-bg {
     background: var(--cor-11);
   }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .bicicleta-conteudo {
     grid-template-columns: 1fr;
   }

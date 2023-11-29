@@ -1,4 +1,4 @@
-@import "/css/utilidades/cores.css";
+@import "../css/utilidades/cores.css";
 
 .vantagens-bg {
   background-color: var(--cor-12);
@@ -24,15 +24,14 @@
   margin-bottom: 8px;
 }
 
-@media(max-width: 750px) {
+@media (max-width: 750px) {
   .vantagens-conteudo {
-    
   }
-  .vantagens{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  .vantagens {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-  .vantagens h2{
+  .vantagens h2 {
     margin-bottom: 40px;
   }
 }

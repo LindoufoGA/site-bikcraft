@@ -1,3 +1,5 @@
+@import"../utilidades/cores.css";
+
 .formulario {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -30,15 +32,15 @@
   border-color: var(--cor-p1);
 }
 
-.formulario.col-2 {
-  grid-column: 1/-1;
+.formulario .col-2 {
+  grid-column: span 2
 }
 
 @media(max-width: 600px) {
   .formulario {
     grid-template-columns: 1fr;
   }
-  .col-2{
+  .formulario .col-2{
     grid-column: 1;
   }
 }

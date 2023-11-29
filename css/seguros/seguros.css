@@ -1,4 +1,4 @@
-@import'/css/utilidades/cores.css';
+@import "../css/utilidades/cores.css";
 
 .seguro-bg {
   background-color: var(--cor-11);
@@ -33,7 +33,7 @@
   margin-bottom: 40px;
 }
 
-.seguro-item  span {
+.seguro-item span {
   grid-column: 2;
   display: block;
   text-align: right;
@@ -52,11 +52,10 @@
   margin-top: 20px;
 }
 
-.seguro-item li{
+.seguro-item li {
   position: relative;
   display: flex;
   align-items: center;
-
 }
 .seguro-item li:before {
   content: "";
@@ -68,8 +67,8 @@
   left: -20px;
 }
 
-@media (max-width:750px) {
-  .seguro{
+@media (max-width: 750px) {
+  .seguro {
     grid-template-columns: 1fr;
   }
 }

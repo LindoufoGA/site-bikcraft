@@ -12,8 +12,7 @@
 /* Bicicletas */
 @import "home/bicicletas.css";
 @import "home/bicicletas-lista.css";
-
-@import "/bicicleta/nimbus.html";
+@import "bicicleta/bicicleta.css";
 
 /* utilidades */
 @import "utilidades/tipografia.css";
@@ -31,3 +30,4 @@
 @import "contato/contato.css";
 @import "contato/formulario.css";
 @import "contato/lojas.css";
+@import "contato/orcamento.css";

@@ -1,4 +1,4 @@
-@import "../css/utilidades/cores.css";
+@import "cores.css";
 
 .container {
   box-sizing: border-box;

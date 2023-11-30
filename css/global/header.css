@@ -1,4 +1,4 @@
-@import "/css/utilidades/cores.css";
+@import "../utilidades/cores.css";
 
 .header-bg {
   background-color: var(--cor-12);
@@ -38,7 +38,8 @@
   position: absolute;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 

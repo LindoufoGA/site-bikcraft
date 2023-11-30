@@ -17,6 +17,8 @@
 /* utilidades */
 @import "utilidades/tipografia.css";
 @import "utilidades/componentes.css";
+@import "utilidades/cores.css";
+@import "utilidades/animacao.css";
 
 /* Seguros */
 @import "/css/seguros/seguros.css";

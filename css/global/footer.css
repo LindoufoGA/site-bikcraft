@@ -1,4 +1,4 @@
-@import "/css/utilidades/cores.css";
+@import "../utilidades/cores.css";
 
 .footer-bg {
   background: var(--cor-12);

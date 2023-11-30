@@ -1,5 +1,5 @@
-@import "/css/utilidades/cores.css";
-@import "/css/utilidades/tipografia.css";
+@import "../utilidades/cores.css";
+@import "../utilidades/tipografia.css";
 
 .introducao-bg {
   background-color: var(--cor-12);

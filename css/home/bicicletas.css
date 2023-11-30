@@ -1,4 +1,4 @@
-@import "/css/utilidades/cores.css";
+@import"../utilidades/cores.css";
 
 .bicicleta-bg {
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 30%);

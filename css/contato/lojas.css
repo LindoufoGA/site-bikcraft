@@ -1,5 +1,3 @@
-@import "../utilidades/cores.css";
-
 .lojas {
   display: grid;
   grid-template-columns: 1fr 1fr;

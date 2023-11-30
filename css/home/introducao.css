@@ -1,6 +1,3 @@
-@import "../utilidades/cores.css";
-@import "../utilidades/tipografia.css";
-
 .introducao-bg {
   background-color: var(--cor-12);
   box-shadow: inset 0 -120px var(--cor-0);

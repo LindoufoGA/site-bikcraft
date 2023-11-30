@@ -1,5 +1,3 @@
-@import "../utilidades/cores.css";
-
 #contato {
   background: linear-gradient(var(--cor-12)650px, var(--cor-1) 0px);
 }

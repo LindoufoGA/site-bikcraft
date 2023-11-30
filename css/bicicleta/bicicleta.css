@@ -1,5 +1,3 @@
-@import "../utilidades/cores.css";
-
 .catalogo-imagens {
   display: flex;
   flex-wrap: wrap;
